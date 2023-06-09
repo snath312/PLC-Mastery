@@ -57,12 +57,20 @@ span {
   justify-content: space-between;
   padding: 1rem 2rem;
 }
-.navbar .logo {
-  font-size: 6rem;
-  font-family: avgard-font;
-  color: var(--text-color);
+.navbar .logo img {
+  width: 12rem;
+  height: 12rem;
   cursor: pointer;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
   text-decoration: none;
+}
+.navbar .logo {
+  margin-left: 4rem;
+  width: 13rem;
+  height: 13rem;
+  background-color: white;
+  border-radius: 50%;
 }
 .navbar-links {
   display: flex;
@@ -558,9 +566,6 @@ footer {
 @media (max-width: 880px) {
   .max-width {
     width: min(250ch, 100% - 4rem);
-  }
-  .navbar .logo {
-    font-size: 5rem;
   }
   .homepage-container {
     background-image: none;
