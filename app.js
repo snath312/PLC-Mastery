@@ -104,7 +104,7 @@ const scriptURL =
 "https://script.google.com/macros/s/AKfycbwbu8FUsVkDQECCyjIR6qZUZfHqUIMNdFrlxRANodo_MAbRlXkHb6VmZ1a3kgsgnHo5/exec";
 const form = document.forms["submit-to-google-sheet"];
 const msg = document.getElementById("msg");
-const sub = document.querySelector("#submit')
+const sub = document.querySelector("#submit")
 sub.addEventListener("click",()=>{
     msg.innerHTML = "YOUR MESSAGE IS BEING PROCESSED";
 })
